@@ -1,0 +1,14 @@
+{
+  "MAXLENGTH": "{property} deve ter no máximo {constraint1} caracteres.",
+  "MINLENGTH": "{property} deve ter pelo menos {constraint1} caracteres.",
+  "ISINT": "{property} deve ser um número",
+  "ISDATESTRING": "{property} deve ser uma Data",
+  "ISEMAIL": "E-mail inválido",
+  "ISPHONENUMBER": "{property} inválido.",
+  "ISNOTEMPTY": "{property} não pode ser vazio.",
+  "ISBOOLEAN": "{property} não pode ser vazio.",
+  "LENGTH": "{property} deve ter no mínimo {constraint1} caracteres e no máximo {constraint2}",
+  "CPFVALIDATOR": "CPF inválido.",
+  "CNPJVALIDATOR": "CNPJ inválido.",
+  "UNIQUEONDATABASEEXISTCONSTRAINT": "{property} já foi cadastrado"
+}

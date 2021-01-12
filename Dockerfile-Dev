@@ -1,0 +1,22 @@
+FROM node:12
+
+ARG NODE_ENV=development
+
+ENV NODE_ENV=$NODE_ENV
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN  npm install
+
+COPY . .
+
+RUN npm run build
+RUN ls -lah
+
+EXPOSE 80
+EXPOSE 8080
+EXPOSE 3000
+
+CMD [ "node" , "/app/dist/main.js" ]
